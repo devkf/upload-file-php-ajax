@@ -1,5 +1,4 @@
 <?php
-var_dump($_POST);
 // allowed extension
 $allowedExts = array("gif", "jpeg", "jpg", "png");
 
