@@ -6,7 +6,6 @@
     <script type="text/javascript">
         function submitForm() {
             var form_data = new FormData(document.getElementById("fileinfo"));
-            form_data.append("label", "WEBUPLOAD");
             $.ajax({
               url: "upload.php",
               type: "POST",
